@@ -8,7 +8,7 @@ Develop a comprehensive complaint management system that enables residents to re
 
 
 ### User Interface:
-1. User (complainer) interface:
+
 - User (complainer) interface:
 - Upload photo of the waste.
 - Provide location details.
@@ -19,11 +19,14 @@ Develop a comprehensive complaint management system that enables residents to re
 - Mark complaints as resolved.
 
 ### Backend Functionality:
+
 - User Registration/Login: Users should be able to register or log in to submit complaints.
 - Complaint Submission: 
   - Users should be able to upload a photo of the waste and provide location details.
   - Name and phone number should be collected for contact purposes.
+    
 - Complaint Storage: Store complaint details in a database along with the photo and location.
+  
 - Administrator Access:
   - Login functionality for administrators.
   - View Complaints: Administrators should be able to view all complaints along with their details (photo, location, complainer name, phone number).
@@ -34,5 +37,5 @@ Develop a comprehensive complaint management system that enables residents to re
   - Feedback Mechanism: Allow users to provide feedback on the resolution process.
   - Continuous Improvement: Gather feedback from users and administrators to identify areas for improvement and implement updates accordingly.
 
-
+### Download application [CLICK ME!!]()
 
