@@ -39,7 +39,9 @@ Develop a comprehensive complaint management system that enables residents to re
 
 ### Download application [CLICK ME!!](https://drive.google.com/file/d/1Hyxcu6TyagchnaJJdkPUNLysfyhOP11q/view?usp=sharing)
 ## logo 
-<img ![lEJjuXZfQUOyi9CS2ZqjMQ](https://github.com/ranadeesh528/Gdscproject/assets/142151157/de091183-5ec3-4866-9ec1-d2f93016c152) width="200" height="400" />
+<img src="app/src/main/res/drawable/lEJjuXZfQUOyi9CS2ZqjMQ.jpg" width="200" height="200" />
+
+## output
 
 
 
