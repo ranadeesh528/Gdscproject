@@ -1,0 +1,6 @@
+<!-- card_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#95F3F6" /> <!-- Set your desired color here -->
+    <corners android:radius="8dp" /> <!-- Set the corner radius as per your requirement -->
+</shape>

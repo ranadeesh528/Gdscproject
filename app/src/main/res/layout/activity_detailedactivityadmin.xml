@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".Detailedactivityadmin">
+
+        <ImageView
+            android:id="@+id/adminimagedt"
+            android:layout_width="365dp"
+            android:layout_height="348dp"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="23dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/img" />
+
+        <TextView
+            android:id="@+id/adminnamefulldt"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:text="fullname"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/adminimagedt"
+            app:layout_constraintStart_toStartOf="@+id/adminimagedt"
+            app:layout_constraintTop_toBottomOf="@+id/adminimagedt" />
+
+        <TextView
+            android:id="@+id/adminphno"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="phonenumber"
+            android:textSize="25sp"
+            android:textColor="#0B0B0B"
+            app:layout_constraintEnd_toEndOf="@+id/adminnamefulldt"
+            app:layout_constraintStart_toStartOf="@+id/adminnamefulldt"
+            app:layout_constraintTop_toBottomOf="@+id/adminnamefulldt" />
+
+        <TextView
+            android:id="@+id/adminpincodedt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="pincode"
+            android:textSize="25sp"
+            android:textColor="#0B0B0B"
+            app:layout_constraintEnd_toEndOf="@+id/adminphno"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/adminphno"
+            app:layout_constraintTop_toBottomOf="@+id/adminphno" />
+
+        <TextView
+            android:id="@+id/adminstatedt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="state"
+            android:textSize="25sp"
+            android:textColor="#0B0B0B"
+            app:layout_constraintEnd_toEndOf="@+id/adminpincodedt"
+            app:layout_constraintStart_toStartOf="@+id/adminpincodedt"
+            app:layout_constraintTop_toBottomOf="@+id/adminpincodedt" />
+
+        <TextView
+            android:id="@+id/admincitydt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="city"
+            android:textSize="25sp"
+            android:textColor="#0B0B0B"
+            app:layout_constraintEnd_toEndOf="@+id/adminstatedt"
+            app:layout_constraintStart_toStartOf="@+id/adminstatedt"
+            app:layout_constraintTop_toBottomOf="@+id/adminstatedt" />
+
+        <TextView
+            android:id="@+id/adminaddressdt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="address"
+            android:textSize="25sp"
+            android:textColor="#0B0B0B"
+            app:layout_constraintEnd_toEndOf="@+id/admincitydt"
+            app:layout_constraintStart_toStartOf="@+id/admincitydt"
+            app:layout_constraintTop_toBottomOf="@+id/admincitydt" />
+
+        <ImageView
+            android:id="@+id/admindeltebtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="123dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="123dp"
+            android:src="@drawable/baseline_delete_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/adminaddressdt" />
+
+        <TextView
+            android:id="@+id/admintextView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="60dp"
+            android:text="PROBLEM RESOLVED"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/admindeltebtn"
+            app:layout_constraintStart_toStartOf="@+id/admindeltebtn"
+            app:layout_constraintTop_toBottomOf="@+id/admindeltebtn" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

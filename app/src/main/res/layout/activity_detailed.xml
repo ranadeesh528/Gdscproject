@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".DetailedActivity">
+
+        <ImageView
+            android:id="@+id/imagedt"
+            android:layout_width="365dp"
+            android:layout_height="348dp"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="23dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/img" />
+
+        <TextView
+            android:id="@+id/namefulldt"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:text="fullname"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/imagedt"
+            app:layout_constraintStart_toStartOf="@+id/imagedt"
+            app:layout_constraintTop_toBottomOf="@+id/imagedt" />
+
+        <TextView
+            android:id="@+id/phno"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="phonenumber"
+            android:textSize="25sp"
+            android:textColor="#0B0B0B"
+            app:layout_constraintEnd_toEndOf="@+id/namefulldt"
+            app:layout_constraintStart_toStartOf="@+id/namefulldt"
+            app:layout_constraintTop_toBottomOf="@+id/namefulldt" />
+
+        <TextView
+            android:id="@+id/pincodedt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="pincode"
+            android:textSize="25sp"
+            android:textColor="#0B0B0B"
+            app:layout_constraintEnd_toEndOf="@+id/phno"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/phno"
+            app:layout_constraintTop_toBottomOf="@+id/phno" />
+
+        <TextView
+            android:id="@+id/statedt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="state"
+            android:textSize="25sp"
+            android:textColor="#0B0B0B"
+            app:layout_constraintEnd_toEndOf="@+id/pincodedt"
+            app:layout_constraintStart_toStartOf="@+id/pincodedt"
+            app:layout_constraintTop_toBottomOf="@+id/pincodedt" />
+
+        <TextView
+            android:id="@+id/citydt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="city"
+            android:textSize="25sp"
+            android:textColor="#0B0B0B"
+            app:layout_constraintEnd_toEndOf="@+id/statedt"
+            app:layout_constraintStart_toStartOf="@+id/statedt"
+            app:layout_constraintTop_toBottomOf="@+id/statedt" />
+
+        <TextView
+            android:id="@+id/addressdt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="120dp"
+            android:text="address"
+            android:textColor="#0B0B0B"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/citydt"
+            app:layout_constraintStart_toStartOf="@+id/citydt"
+            app:layout_constraintTop_toBottomOf="@+id/citydt" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

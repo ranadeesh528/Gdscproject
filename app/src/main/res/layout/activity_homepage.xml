@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homepage">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Welcome Card View -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/welcomeCardView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/card_background"
+            app:cardCornerRadius="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WELCOME :"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/userretrive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="username"
+                    android:textColor="@color/peach"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Full Name EditText -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/fullnameLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/edit_text_bg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/welcomeCardView">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/fullname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Full name"
+                android:inputType="text"
+                android:padding="12dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Phone Number EditText -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/phnumberLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/edit_text_bg"
+            app:layout_constraintEnd_toEndOf="@+id/fullnameLayout"
+            app:layout_constraintStart_toStartOf="@+id/fullnameLayout"
+            app:layout_constraintTop_toBottomOf="@+id/fullnameLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/phnumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone Number"
+                android:inputType="phone"
+                android:padding="12dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Pincode EditText -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/pincodeLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/edit_text_bg"
+            app:layout_constraintEnd_toEndOf="@+id/phnumberLayout"
+            app:layout_constraintStart_toStartOf="@+id/phnumberLayout"
+            app:layout_constraintTop_toBottomOf="@+id/phnumberLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/pincode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Pincode"
+                android:inputType="number"
+                android:padding="12dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- State EditText -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/stateLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/edit_text_bg"
+            app:layout_constraintEnd_toEndOf="@+id/pincodeLayout"
+            app:layout_constraintStart_toStartOf="@+id/pincodeLayout"
+            app:layout_constraintTop_toBottomOf="@+id/pincodeLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="State"
+                android:inputType="text"
+                android:padding="12dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- City EditText -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/cityLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/edit_text_bg"
+            app:layout_constraintEnd_toEndOf="@+id/stateLayout"
+            app:layout_constraintStart_toStartOf="@+id/stateLayout"
+            app:layout_constraintTop_toBottomOf="@+id/stateLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="City"
+                android:inputType="text"
+                android:padding="12dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Address EditText -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/addressLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/edit_text_bg"
+            app:layout_constraintEnd_toEndOf="@+id/cityLayout"
+            app:layout_constraintStart_toStartOf="@+id/cityLayout"
+            app:layout_constraintTop_toBottomOf="@+id/cityLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Address"
+                android:inputType="text"
+                android:padding="12dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Upload Image ImageView -->
+        <ImageView
+            android:id="@+id/upload"
+            android:layout_width="187dp"
+            android:layout_height="169dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="@+id/addressLayout"
+            app:layout_constraintStart_toStartOf="@+id/addressLayout"
+            app:layout_constraintTop_toBottomOf="@+id/addressLayout"
+            android:src="@drawable/img"
+            android:background="@drawable/background"
+            android:contentDescription="Upload image" />
+
+        <!-- Add Data Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/adddata"
+            android:layout_width="0dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/peach"
+            android:text="ADD DATA"
+            app:layout_constraintEnd_toEndOf="@+id/upload"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/upload"
+            app:layout_constraintTop_toBottomOf="@+id/upload" />
+
+        <!-- View Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/adminbtn"
+            android:layout_width="0dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/peach"
+            android:text="VIEW"
+            app:layout_constraintEnd_toEndOf="@+id/adddata"
+            app:layout_constraintStart_toStartOf="@+id/adddata"
+            app:layout_constraintTop_toBottomOf="@+id/adddata" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

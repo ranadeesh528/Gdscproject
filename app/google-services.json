@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "764169848548",
+    "project_id": "gdscproject-73de5",
+    "storage_bucket": "gdscproject-73de5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764169848548:android:228cc04d1e4c1157864ef1",
+        "android_client_info": {
+          "package_name": "com.example.gdscproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLb4QR_RScyRetvZRfakHf3bYxZbDjGcU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
