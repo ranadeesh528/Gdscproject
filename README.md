@@ -21,9 +21,14 @@
   - Name and phone number should be collected for contact purposes.
 - Complaint Storage: Store complaint details in a database along with the photo and location.
 - Administrator Access:
- - Login functionality for administrators.
- - View Complaints: Administrators should be able to view all complaints along with their details (photo, location, complainer name, phone number).
- - Mark Complaints as Resolved: Administrators should have the ability to mark complaints as resolved once the issue has been addressed.
+  - Login functionality for administrators.
+  - View Complaints: Administrators should be able to view all complaints along with their details (photo, location, complainer name, phone number).
+  - Mark Complaints as Resolved: Administrators should have the ability to mark complaints as resolved once the issue has been addressed.
+ 
+#### upcoming functionalities
+- Integration with Mapping Service: Use mapping services (like Google Maps) to pinpoint the exact location of the complaint.
+- Feedback Mechanism: Allow users to provide feedback on the resolution process.
+- Continuous Improvement: Gather feedback from users and administrators to identify areas for improvement and implement updates accordingly.
 
 
 
