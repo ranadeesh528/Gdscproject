@@ -17,13 +17,13 @@
 ### Backend Functionality:
 - User Registration/Login: Users should be able to register or log in to submit complaints.
 - Complaint Submission: 
--- Users should be able to upload a photo of the waste and provide location details.
--- Name and phone number should be collected for contact purposes.
+  - Users should be able to upload a photo of the waste and provide location details.
+  - Name and phone number should be collected for contact purposes.
 - Complaint Storage: Store complaint details in a database along with the photo and location.
 - Administrator Access:
--- Login functionality for administrators.
--- View Complaints: Administrators should be able to view all complaints along with their details (photo, location, complainer name, phone number).
--- Mark Complaints as Resolved: Administrators should have the ability to mark complaints as resolved once the issue has been addressed.
+ - Login functionality for administrators.
+ - View Complaints: Administrators should be able to view all complaints along with their details (photo, location, complainer name, phone number).
+ - Mark Complaints as Resolved: Administrators should have the ability to mark complaints as resolved once the issue has been addressed.
 
 
 
